@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from common import print_method, isZero
+from common import print_method, isNotZero
 
 
 class SampleClass:
@@ -19,7 +19,7 @@ class SampleClass:
         print_method(self.hoge, self.fuga)
 
     def square_area(self):
-        if isZero(self.height) and isZero(self.width):
+        if isNotZero(self.height) and isNotZero(self.width):
             return self.height * self.width
 
 

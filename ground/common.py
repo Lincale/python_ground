@@ -3,15 +3,15 @@ def print_method(*args):
     print(*args)
 
 
-def isNotZero(num):
-    if not num:
+def isZero(float_num):
+    if not float_num:
         return True
     else:
         return False
 
 
-def isZero(num):
-    if num:
+def isNotZero(float_num):
+    if float_num:
         return True
     else:
         return False
