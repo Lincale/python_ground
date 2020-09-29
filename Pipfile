@@ -5,12 +5,16 @@ verify_ssl = true
 
 [dev-packages]
 autopep8 = "*"
-flake8 = "*"
 mypy = "*"
+pycodestyle = "*"
+pep8 = "*"
 
 [packages]
 numpy = "*"
-importlib-metadata = "*"
+pycodestyle = "*"
+pep8 = "*"
+flake8 = "==3.7.9"
+ipython = "*"
 
 [requires]
 python_version = "3.6"
