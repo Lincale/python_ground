@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from common import print_method, isNotZero
+from common import isNotZero, print_method
 
 
 class SampleClass:
