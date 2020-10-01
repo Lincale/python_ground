@@ -16,7 +16,7 @@ pep8 = "*"
 flake8 = "==3.7.9"
 ipython = "*"
 ipykernel = "*"
-fastapi = "*"
+fastapi = {extras = ["all"], version = "*"}
 uvicorn = "*"
 
 [requires]
