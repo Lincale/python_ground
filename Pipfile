@@ -18,6 +18,8 @@ ipython = "*"
 ipykernel = "*"
 fastapi = {extras = ["all"], version = "*"}
 uvicorn = "*"
+graphene-sqlalchemy = "*"
+sqlalchemy = "*"
 
 [requires]
 python_version = "3.6"
