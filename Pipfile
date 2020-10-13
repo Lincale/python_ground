@@ -13,7 +13,7 @@ pep8 = "*"
 numpy = "*"
 pycodestyle = "*"
 pep8 = "*"
-flake8 = "==3.7.9"
+flake8 = "*"
 ipython = "*"
 ipykernel = "*"
 fastapi = {extras = ["all"], version = "*"}
@@ -22,4 +22,4 @@ graphene-sqlalchemy = "*"
 sqlalchemy = "*"
 
 [requires]
-python_version = "3.6"
+python_version = "3.7"
